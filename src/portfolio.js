@@ -123,11 +123,13 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Flutter",
-      svgImage: require("./assets/images/icons8-flutter.svg")
+      fontAwesomeClassname: "fa-solid fa-dove"
+      // svgImage: require("./assets/images/icons8-flutter.svg")
     },
     {
       skillName: "Dart",
-      svgImage: require("./assets/images/icons8-dart.svg")
+      fontAwesomeClassname: "fa-solid fa-bullseye"
+      // svgImage: require("./assets/images/icons8-dart.svg")
     },
     {
       skillName: "Java",
@@ -451,7 +453,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   // number: "+613243454077",
-  email_address: "simba.ndoro@dittogod.com"
+  email_address: "dittogod1@gmail.com"
 };
 
 // Twitter Section
