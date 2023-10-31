@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ehsan Rafee",
+  title: "Hi all, I'm ehsan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "As a seasoned Software Engineer with over 7 years of experience 🚀, I specialize in designing and implementing highly scalable API-based solutions with a focus on improving performance. My biggest achievements include creating efficient systems that have significantly improved business operations for various clients. With expertise in SQL databases, and clean architecture, my analytical thinking and problem-solving skills are second to none."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://www.cakeresume.com/s--F7fCGZnY-rgyMap6mYWFyg--/ehsan-rafee", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ehsanera",
+  linkedin: "https://www.linkedin.com/in/ehsan-rafee/",
+  gmail: "ehsan.rafee.gk@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@ehsan.rafee.gk",
+  stackoverflow: "https://stackoverflow.com/users/6892681/ehsan-rafee",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACKEND SOFTWARE ENGINEER WHO WANTS TO EXPLORE EVERY COOL TECH.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly available Backend for your web and mobile applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Development of responsive systems for high user numbers."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Development of systems with the ability to connect with external systems such as banks and central insurance and any other external system that is necessary."
     )
   ],
 
@@ -65,56 +65,56 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C#",
+      fontAwesomeClassname: "fab fa-c"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Asp.Net",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Multi Tenancy",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Hibernate",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Design Pattern",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Docker",
+      fontAwesomeClassname: "fas fa-docker"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Golang",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Git",
+      fontAwesomeClassname: "fas fa-git"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Sql/NoSql",
+      fontAwesomeClassname: "fab fa-database"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Redis",
+      fontAwesomeClassname: "fab fa-java"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +126,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Isfahan University Jahad Higher Education Institute",
+      logo: require("./assets/images/jahad.png"),
+      subHeader: "Bachelor Degree in Software Engineering",
+      duration: "2013 - 2015",
+      desc: "Activities and societies: Web Team, Volleyball. Passed software engineering courses include:",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Islamic Azad University",
+      logo: require("./assets/images/azad.png"),
+      subHeader: "Associate degree in Software Engineering",
+      duration: "2010 - April 2012",
+      desc: "Activities and societies: Behavioral scientific article. Passed software engineering courses include:",
+      descBullets: [
+        "- Systematic thinking",
+        "- Web basics",
+        "- operating system",
+        "- Network"
+      ]
     }
   ]
 };
@@ -153,15 +158,55 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Java", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "C#",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Postgres",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Sql Server",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Redis",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Spring Boot",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Spring Security",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Spring Jpa",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Spring Data",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Spring Cloud",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Asp.net",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Linux",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Docker",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +219,79 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Backend Engineer",
+      company: "Today",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Development of high-load systems in the field of physical access management and maintenance of existing systems.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Engineer Java",
+      company: "Shenazh ",
+      companylogo: require("./assets/images/shenazh.webp"),
+      date: "May 2022 - Apr 2023 · 1 yr",
+      desc: "As a part-time software engineer at Shenazh, a construction startup that serves as a marketplace intermediary, my main responsibilities included:",
+      descBullets: [
+        "- Building and managing a technical team, fostering a collaborative work environment, and ensuring high-quality work.",
+        "- Conducting technical analysis of business demands and end-users, ensuring that the product met the needs of all stakeholders.",
+        "- Implementing the backend system, ensuring that the system was scalable, efficient, and met the needs of the users."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Engineer .net",
+      company: "Bimer ",
+      companylogo: require("./assets/images/bimer.jpeg"),
+      date: "May 2022 - Apr 2023 · 1 yr",
+      desc: "As a software engineer at Bimer, acting as an intermediary between insurance providers and insurance sellers, as well as direct sales to the user, my main responsibilities are:",
+      descBullets: [
+        "- The dot net framework was successfully upgraded from version 3.1 to 6, ensuring compatibility and using new features for enhanced functionality.",
+        "- Optimized performance up to 40% for SQL database and dot grid backend, improving overall system performance.",
+        "- Designing and implementing a new system using .NET 7 and Postgres SQL database, meeting specific requirements and achieving desired results.",
+        "- Demonstrated strong problem-solving skills and a proactive approach to identifying and addressing potential challenges, ensuring smooth operation of supporting infrastructure.",
+        "- Collaborate with cross-functional teams to gather requirements, ensure seamless integration of new system and effective communication between departments."
+      ]
+    },
+    {
+      role: "Backend Engineer Java",
+      company: "Zamin ",
+      companylogo: require("./assets/images/balonet.jpeg"),
+      date: "Apr 2018 - Mar 2022 · 4 yrs",
+      desc: "Zamin Company is a single-product software company specializing in Balonet, a professional messenger. As a software engineer with the company, my primary focus was on the development of messaging and management systems, as well as the core product. Some of my key contributions include:",
+      descBullets: [
+        "- Streamlined the distribution process of Balonet's white-label manufacturing and sales by architecting and developing a cloud management system, resulting in higher efficiency and faster time to market.",
+        "- Developed custom dashboard systems for various organizations and companies, providing real-time data visualization and analysis capabilities for improved decision-making.",
+        "- Created the Balonet bots framework, which simplified the process of developing custom chatbots in multiple programming languages, enabling businesses to leverage the power of conversational AI.",
+        "- Contributed to the development of the core Balonet product, focusing on messaging and management systems to improve the user experience and functionality.",
+        "- Collaborated with cross-functional teams to ensure seamless integration of different components and systems, resulting in a cohesive and reliable product."
+      ]
+    },
+    {
+      role: "Backend Engineer .net",
+      company: "Kasra",
+      companylogo: require("./assets/images/kasra.jpeg"),
+      date: "Mar 2017 - Feb 2018 · 1 yr",
+      desc: "As a software company with a long-standing reputation, Kasra specializes in office automation, traffic automation, and feeding solutions. Here are some of the key projects I contributed to during my time with the company:",
+      descBullets: [
+        "- Successfully implemented an offline patch installation project for the support team and end-users, ensuring seamless software updates without internet connectivity.",
+        "- Developed a guest subsystem for traffic automation, improving the user experience and streamlining the system's functionality.",
+        "- Collaborated with the artificial intelligence team to integrate a dashboard system with Power BI into the main system, providing real-time data visualization and analysis for stakeholders."
+      ]
+    },
+    {
+      role: "Junior Backend Developer .net",
+      company: "Freelancer ",
+      companylogo: require("./assets/images/freelancer.jpg"),
+      date: "Mar 2016 - Feb 2017 · 1 yr",
+      desc: "My experience as a Backend Developer freelancer has allowed me to work on a variety of projects using a range of technologies. Some of my notable achievements include:",
+      descBullets: [
+        "- Developing the NegahNo websi,te project, which focused on best practices of Asp.net MVC, SQL database, and Bootstrap in the film and cinema industry.",
+        "- Building a web-based platform for bridge maintenance using SQL Server and Asp.net MVC.",
+        "- Creating software to manage the internal processes of a small company using Sql Lite and Windows Form."
+      ]
     }
   ]
 };
