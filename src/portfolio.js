@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "Islamic Azad University",
-      logo: require("./assets/images/azad.png"),
+      logo: require("./assets/images/azad.jpg"),
       subHeader: "Associate degree in Software Engineering",
       duration: "2010 - April 2012",
       desc: "Activities and societies: Behavioral scientific article. Passed software engineering courses include:",
@@ -244,7 +244,7 @@ const workExperiences = {
     {
       role: "Backend Engineer .net",
       company: "Bimer ",
-      companylogo: require("./assets/images/bimer.jpeg"),
+      companylogo: require("./assets/images/bimer.png"),
       date: "May 2022 - Apr 2023 · 1 yr",
       desc: "As a software engineer at Bimer, acting as an intermediary between insurance providers and insurance sellers, as well as direct sales to the user, my main responsibilities are:",
       descBullets: [
@@ -258,7 +258,7 @@ const workExperiences = {
     {
       role: "Backend Engineer Java",
       company: "Zamin ",
-      companylogo: require("./assets/images/balonet.jpeg"),
+      companylogo: require("./assets/images/balonet.png"),
       date: "Apr 2018 - Mar 2022 · 4 yrs",
       desc: "Zamin Company is a single-product software company specializing in Balonet, a professional messenger. As a software engineer with the company, my primary focus was on the development of messaging and management systems, as well as the core product. Some of my key contributions include:",
       descBullets: [
@@ -272,7 +272,7 @@ const workExperiences = {
     {
       role: "Backend Engineer .net",
       company: "Kasra",
-      companylogo: require("./assets/images/kasra.jpeg"),
+      companylogo: require("./assets/images/kasra.jpg"),
       date: "Mar 2017 - Feb 2018 · 1 yr",
       desc: "As a software company with a long-standing reputation, Kasra specializes in office automation, traffic automation, and feeding solutions. Here are some of the key projects I contributed to during my time with the company:",
       descBullets: [
