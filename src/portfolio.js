@@ -123,13 +123,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Flutter",
-      fontAwesomeClassname: "fa-solid fa-dove"
-      // svgImage: require("./assets/images/icons8-flutter.svg")
+      svgImage: require("./assets/images/icons8-flutter.svg")
     },
     {
       skillName: "Dart",
-      fontAwesomeClassname: "fa-solid fa-bullseye"
-      // svgImage: require("./assets/images/icons8-dart.svg")
+      svgImage: require("./assets/images/icons8-dart.svg")
     },
     {
       skillName: "Java",
