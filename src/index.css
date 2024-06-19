@@ -28,7 +28,8 @@ body {
 }
 
 .iconColour {
-  filter: invert(57%) sepia(10%) saturate(296%) hue-rotate(169deg) brightness(96%) contrast(88%);
+  filter: invert(57%) sepia(10%) saturate(296%) hue-rotate(169deg)
+    brightness(96%) contrast(88%);
 }
 /* Media Query */
 @media (max-width: 1380px) {
