@@ -4,7 +4,7 @@
   line-height: normal;
 }
 
-.startup-project-text img{
+.startup-project-text img {
   max-width: 100%;
   height: auto;
 }
@@ -21,12 +21,14 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
     text-align: center;
   }
-  .repo-cards-div-main{
+
+  .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }

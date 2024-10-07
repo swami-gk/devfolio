@@ -1,6 +1,6 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background-color: #007AFF;
+  border: solid 1px #007AFF;
   color: white;
   font-weight: 700;
   width: max-content;
@@ -16,18 +16,20 @@
   cursor: pointer;
   transition: all .3s ease-in-out 0s;
 }
+
 .main-button:hover {
   background-color: #ffffff;
   color: black;
   transition: all .3s ease 0s;
   transform: translateY(-3px);
 }
-.project-button{
+
+.project-button {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
 }
+
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
@@ -36,6 +38,7 @@
     margin-right: 0px;
   }
 }
+
 @media (max-width: 320px) {
   .main-button {
     font-size: 12px;
