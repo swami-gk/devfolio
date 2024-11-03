@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/sowmyavv2/",
   linkedin: "https://www.linkedin.com/in/sowmya-vetukuri/",
   gmail: "vsowmya134@gmail.com",
- // facebook: "https://www.facebook.com/saad.pasta7",
+  // facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/",
   //stackoverflow: "https://stackoverflow.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
