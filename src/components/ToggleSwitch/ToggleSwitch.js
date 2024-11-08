@@ -16,11 +16,7 @@ const ToggleSwitch = ({closeMenu}) => {
 
   return (
     <label className="switch">
-      <input
-        type="checkbox"
-        checked={isDark}
-       onChange={handleToggle}
-      />
+      <input type="checkbox" checked={isDark} onChange={handleToggle} />
       <span className="slider round">
         <span className="emoji">{isChecked ? emoji("🌜") : emoji("☀️")}</span>
       </span>

@@ -96,7 +96,7 @@ function Header() {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a>
-              <ToggleSwitch closeMenu={closeMenu}/>
+              <ToggleSwitch closeMenu={closeMenu} />
             </a>
           </li>
         </ul>
