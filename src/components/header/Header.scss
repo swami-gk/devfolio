@@ -14,10 +14,12 @@
 
 .dark-menu li a {
   color: $textColorDark !important;
+  transition-duration: 0.2s;
 }
 
 .dark-menu li a:hover {
   background-color: $buttonColor !important;
+  transition-duration: 0.2s;
 }
 
 .header {
@@ -43,11 +45,13 @@
   padding: 15px 20px;
   color: $textColor;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+  transition-duration: 0.2s;
 }
 
 .header .logo {
