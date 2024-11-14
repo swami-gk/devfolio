@@ -74,6 +74,14 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-npm"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Boot",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
       skillName: "MSSQL",
       fontAwesomeClassname: "fas fa-database"
     },
@@ -138,7 +146,7 @@ const workExperiences = {
       company: "Universidad de Valparaíso",
       companylogo: require("./assets/images/uv_logo.png"),
       date: "Oct 2016 – Jun 2017",
-      desc: ".",
+      desc: "Ayudante",
       descBullets: [
         "Proyecto 30mil ideas del Ministerio de Obras Públicas.",
         "Proyecto UVA 1409: STEM. Diseño e implementación de una estrategia para la evaluación y fortalecimiento continuo de competencias STEM."
@@ -159,8 +167,8 @@ const workExperiences = {
     {
       role: "Full-stack Developer",
       company: "ACID Labs",
-      companylogo: require("./assets/images/acidlabs.jpeg"),
-      date: "Jul 2017 – Mar 2022",
+      companylogo: require("./assets/images/acidlabs_logo.jpeg"),
+      date: "Feb 2021 – Mar 2022",
       desc: "Desarrollador de back-end y front-end para cliente BancoEstado.",
       descBullets: [
         "Desarrollo del flujo de login de la Nueva Web Minorista de BancoEstado.",
@@ -172,7 +180,7 @@ const workExperiences = {
     {
       role: "Technical Lead",
       company: "Empresas Gasco S.A.",
-      companylogo: require("./assets/images/uv_logo.png"),
+      companylogo: require("./assets/images/gasco_logo.png"),
       date: "Mar 2022 – Actualidad",
       desc: "Líder técnico en proyectos de Desarrollo de Software.",
       descBullets: [
@@ -183,7 +191,11 @@ const workExperiences = {
         "Integración con interfaces en SAP.",
         "Desarrollo de proyectos base de front-end.",
         "Desarrollo de arquetipo de proyectos.",
-        "Desarrollo de jobs a nivel de back-end."
+        "Desarrollo de jobs a nivel de back-end.",
+        "Proyecto GascoPacks: Plataforma integrada para la gestión de descuentos en recargas de gas, que automatiza procesos de compra, contabilidad y pagos a distribuidores mediante la conexión con sistemas como Gasconnect y SAP.",
+        "Proyecto Gascontigo: Plataforma digital que ofrece descuentos a clientes residenciales, integrando sistemas externos y servicios de SMS para la entrega de cupones de descuento en el flujo de compra de recargas de gas.",
+        "Proyecto Gascontigo PYME: Plataforma de descuentos para recargas de gas dirigida a pymes, que valida datos con el SII, envía cupones por SMS, y utiliza webhooks de Datamart para garantizar la autenticidad de la información, permitiendo a las empresas aplicar estos descuentos en su flujo de compra.",
+        "Proyecto Validación de Identidad: Plataforma que verifica la identidad de clientes mediante RUT, número de serie, OTP, y preguntas de seguridad del Registro Civil y SII a través de TransUnion, permitiendo un acceso seguro a los descuentos de Gasco."
       ]
     },
   ]
